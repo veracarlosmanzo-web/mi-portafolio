@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Portafolio Profesional</title>
+<meta name="author" content="Carlos Manzo Vera">
+<meta name="theme-color" content="#1e7bbf">
+<!--descripción de la página-->
+<meta name="descripcion" content="Portafolio Profesional">
+<!--palabra clave-->
+<meta name="keywords" content="Portafolio,profesional">
+<!--ajusta la página según el tamaño del dispositivo-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--icono de la página-->
+<link rel="icon" href="/img icon.png" type="image/x-icon">
+</head>
+<body>
+    <!--Utilizamos el div para agrupar los elementos en un bloque-->
+   <div>
+    <!--Tema principal o encabezado-->
+    <h1>Carlos Jeampier Manzo Vera</h1>
+    <!--utilizamos <p> para agregar un pequeño párrafo-->
+    <p> “Tecnología que enseña, conocimiento que transforma.”</p>
+    <!--salto de linea-->
+    <hr>
+    <!--<img> para agregar una imagen-->
+    <img src="rostro.jpg" alt="iconn" width="20%"> 
+   </div>
+    <nav> <!--<nav> barra de navegación-->
+        <ul>
+            <li><a href="#sobre mi">Sobre mi </a></li>
+            <li><a href="#intereses">Intereses</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+
+        </ul>
+    </nav>
+    <!--<section> sección de contenido-->
+    <section id="Sobre mi">
+        <h2>Sobre mi </h2>
+        <p>Soy una persona apasionada por la tecnología y el aprendizaje continuo, 
+            actualmente me desarrollo en el área de <strong>Sistemas de Información</strong>, donde 
+            disfruto explorar cómo las herramientas digitales pueden mejorar la vida diaria 
+            y optimizar procesos. 
+     Me considero alguien <i> responsable, curioso y con iniciativa</i>, siempre dispuesto a 
+        enfrentar nuevos retos y a perfeccionar mis habilidades, me gusta trabajar de manera
+         organizada, aprender de cada experiencia y aportar soluciones prácticas y eficientes.
+        Mi objetivo es seguir creciendo profesionalmente, fortalecer mis competencias técnicas
+         y convertirme en un profesional capaz de aportar valor en cualquier <u>proyecto tecnológico.</u></p>
+    </section>
+    <div>
+        <h2>Intereses</h2>
+        <ul><!--lista no ordenada-->
+            <li>Tecnologías emergentes, especialmente inteligencia artificial y automatización.</li>
+            <li>Optimización de procesos digitales, buscando soluciones más rápidas y eficientes.</li>
+            <li>Diseño y estructura de sistemas de información, entendiendo cómo funcionan y cómo pueden mejorar.</li>
+            <li>Aprendizaje continuo, especialmente en programación, análisis de datos y ciberseguridad básica.</li>
+            <li>Creación de proyectos personales para poner en práctica conocimientos y experimentar con nuevas ideas.</li>
+            <li>Trabajo colaborativo, compartiendo ideas y aprendiendo de otros en entornos académicos o profesionales.</li>
+            <li>Documentación técnica, presentando información clara y entendible para otros usuarios o estudiantes.</li>
+        </ul>
+    </div>
+    <br>
+    <h2>Tabla de Habilidades</h2>
+    <br>
+    <!--<table> tabla de contenido, border = filas -->
+    <table border="5">
+<tr><th>Habilidades</th></tr>
+<tr><td>Lógica de programación y pensamiento analítico.</td></tr>
+<tr><td>Conocimientos en sistemas de información y su estructura. </td></tr>
+<tr><td> Capacidad para aprender rápido nuevas tecnologías y metodologías.</td></tr>
+<tr><td> Trabajo en equipo y comunicación efectiva en proyectos.</td></tr>
+<tr><td>Resolución de problemas, buscando soluciones prácticas y eficientes. </td></tr>
+</table>
+<br>
+<h2>Audio</h2>
+<br>
+<div>
+    <!--<audio> para agregar notas de voz -->
+    <audio src="Grabación.m4a" preload="none" controls></audio>
+</div>
+<br>
+<h2>Formulario</h2>
+<br>
+<!--<form> para agregar formularios-->
+<form>
+<fieldset>
+<legend>Registro</legend>
+<label for="email">Correo:</label>
+<input type="email" id="email" name="email" required><br>
+<label for="edad">Edad:</label>
+<input type="number" id="edad" name="edad" min="19"><br>
+<label for="pais">País:</label>
+<select id="pais" name="pais">
+<option value="ec">Ecuador</option>
+<option value="co">Colombia</option>
+<option value="mx">Mexico</option>
+<option value="pr">Perú</option>
+<option value="br">Brasil</option>
+<option value="ar">Argentina</option>
+<option value="ch">Chile</option>
+<!--<select> para seleccionar -->
+</select><br>
+<label>Género:</label>
+<input type="radio" name="genero" value="M"> Masculino
+<input type="radio" name="genero" value="F"> Femenino<br>
+<label>Aficiones:</label>
+<input type="checkbox" name="deporte"> Deporte
+<input type="checkbox" name="lectura"> Lectura<br>
+<!--<textarea> para poder escribir -->
+<textarea name="comentarios" rows="4" cols="40">Escribe aquí...
+</textarea><br>
+<input type="submit" value="Registrar">
+</fieldset>
+</form>
+<br>
+<!--<footer> para agregar pie de página-->
+<footer>
+  <p>&copy; 2025 Mi Sitio Web. Todos los derechos reservados.</p>
+
+  <p>Sígueme:</p>
+  <a href="https://www.facebook.com/jeampier.manzo.2025" target="_blank">Facebook </a> |
+  <a href="https://www.instagram.com/carlosjeampiermanzovera?igsh=MnkwODJyNzF5cmNw" target="_blank">Instagram</a> |
+</footer>
+
+
+
+
+</body>
